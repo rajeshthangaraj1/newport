@@ -1,40 +1,16 @@
 {
-  "name": "eccsae",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.5"
-  },
   "dependencies": {
-    "axios": "^0.18.0",
-    "html-to-react": "^1.2.4",
-    "object-assign": "^4.1.1",
-    "react": "^15.4.2",
-    "react-cookie": "^1.0.4",
-    "react-document-meta": "^2.1.1",
-    "react-dom": "^15.4.2",
-    "react-router": "^3.0.2",
-    "react-scroll-to-element": "^0.2.0"
-  },
-  "reactToolbox": {
-    "include": [
-      "BUTTON",
-      "DATE_PICKER"
-    ],
-    "customProperties": {
-      "animation-duration": "0.3s",
-      "color-accent": "var(--palette-pink-a200)",
-      "color-accent-dark": "var(--palette-pink-700)",
-      "color-primary-contrast": "var(--color-dark-contrast)",
-      "color-accent-contrast": "var(--color-dark-contrast)"
-    },
-    "output": "public/react-toolbox"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "toolbox": "react-toolbox-themr",
     "eject": "react-scripts eject"
   }
 }
